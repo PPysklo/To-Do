@@ -1,0 +1,153 @@
+body {
+	background: linear-gradient(-45deg, #F5F5F5, #d8d0c8, #d0c3b3);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Russo One', sans-serif;
+    font-family: 'Walter Turncoat', cursive;
+    padding-top: 20px;
+}
+
+p{
+    color: #46423c  ;
+}
+
+#head{
+   padding-top:20px ;
+   padding-left: 20px;
+}
+
+.header-bar {
+    display: flex;
+    justify-content: space-between;
+    color: #553f3d ;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+	background: linear-gradient(-45deg, #ddb7b7, #d4b89c, #d0c3b3);
+}
+
+.task-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color:#edebeb;
+    border-top: 2px solid #af9e9e;
+}
+
+
+
+h3{
+    margin: 0px;
+}
+
+.header-bar a{
+    text-decoration: none;
+    color: #553f3d;
+}
+
+
+.task-title {
+    display: flex;
+}
+
+.task-title a{
+    text-decoration: none;
+    color: #553f3d;
+    margin-left: 10px;
+}
+
+.task-complete-icon{
+    height: 15px;
+    width: 15px;
+    background-color: rgb(69, 23, 23);
+    border-radius: 50%;
+}
+
+.task-incomplete-icon{
+    height: 15px;
+    width: 15px;
+    background-color: rgb(154, 181, 144);
+    border-radius: 50%;
+}
+
+.delete-link{
+    text-decoration: none;
+    font-weight: 900;
+    color: rgb(167, 44, 44);
+    font-size: 22px;
+    line-height: 0;
+}
+
+#search-bar{
+    margin-top: 20px;
+    display: flex;
+}
+
+.container{
+    max-width: 550px;
+    margin: auto;
+    background-color: #edebeb;
+    -webkit-box-shadow: 2px 2px 13px -4px rgba(0, 0, 0, 0.21);
+    box-shadow:  2px 2px 13px -4px rgba(0, 0, 0, 0.21);
+}
+
+#search-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+#add-link{
+    color: #553f3d;
+    text-decoration: none;
+    font-size: 30px;
+    text-shadow: 1px 1px #81413b;
+    padding-right: 10px;
+}
+
+input[type=text],
+input[type=password],
+textarea{
+    border: 1px solid #81413b;
+    border-radius:  5px;
+    padding: 10px;
+    width: 90%;
+}
+
+label {
+    padding-top: 1px !important ;
+    display: block;
+}
+
+
+.btn{
+    border:  1px solid #81413b;
+    background-color: #fbf8f8;
+    color: #81413b;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.card-body{
+    padding: 20px;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
