@@ -11,5 +11,5 @@
 # Home Page
 <img src="./resources/images/index.JPG" style="width:1.5rem; height:1.5rem;">
 
-# Task form
+# Task details
 <img src="./resources/images/taskform.JPG" style="width:1.5rem; height:1.5rem;">
